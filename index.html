@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC calculator</title>
+    <title>BMI calculator</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -20,18 +20,20 @@
 </head>
 
 <body>
-
-    <form class="form">
-        <input type="number" name="" class="weight" id="" placeholder="Weight">
-        <input type="number" name="" class="height" id="" placeholder="Height">
-        <button>Submit</button>        
-    </form>
-    <div class="result">
-
-    </div>
+    <main>
+        <section>
+            <form class="form">
+                <input type="number" step="any" name="" class="weight" id="" placeholder="Weight">
+                <input type="number" step="any" name="" class="height" id="" placeholder="Height">
+                <button>Submit</button>
+            </form>
+        </section>
+        <section>
+            <div class="result"></div>
+        </section>
+    </main>
 
     <script src="assets/Js/JS.js"></script>
-
 </body>
 
 </html>
