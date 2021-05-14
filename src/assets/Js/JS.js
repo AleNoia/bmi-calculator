@@ -1,6 +1,7 @@
 function runCalculator() {
     const form = document.querySelector('.form');
 
+    // Listening to the form and calling as functions
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
