@@ -1,2 +1,3 @@
-# imc-calculation
- A simple IMC calculator
+# BMI calculator
+
+A simple BMI calculator
