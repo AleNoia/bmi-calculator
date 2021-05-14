@@ -131,6 +131,8 @@ function insertResult(bmi, msg) {
 Listening the form and calling the functions
 
 ```javascript
+const form = document.querySelector('.form');
+ 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
