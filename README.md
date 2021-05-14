@@ -116,6 +116,11 @@ function getMsgResult(bmi) {
 ```
 
 Inserting message in HTML
+```html
+<section>
+    <div class="result"></div>
+</section>
+```
 
 ```javascript
 function insertResult(bmi, msg) {
