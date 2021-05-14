@@ -4,14 +4,20 @@ function runCalculator() {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
+        // Getting weight and height
         const inputWeight = e.target.querySelector('.weight');
         const inputHeight = e.target.querySelector('.height');
 
         const height = inputHeight.value;
         const weight = inputWeight.value;
 
+        // Getting the BMI
         const bmi = getBmi(weight, height)
+
+        // Getting a message according to the BMI value
         const msg = getMsgResult(bmi)
+
+        // Inserting message in HTML
         insertResult(bmi, msg)
 
         console.log('[height]', height)
@@ -21,13 +27,14 @@ function runCalculator() {
     });
 
 
+    // Getting the BMI
     function getBmi(weight, height) {
         return (weight / (height ** 2)).toFixed(2);
     }
 
+    // Getting a message according to the BMI value
     function getMsgResult(bmi) {
-        const levels = [
-            {
+        const levels = [{
                 msg: 'under weight',
                 link: 'https://en.wikipedia.org/wiki/Underweight'
             },
@@ -73,6 +80,7 @@ function runCalculator() {
         };
     }
 
+    // Inserting message in HTML
     function insertResult(bmi, msg) {
         const html = document.querySelector('.result')
         html.innerHTML = `
