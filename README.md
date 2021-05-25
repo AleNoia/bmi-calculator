@@ -1,10 +1,10 @@
 # ⚖️ BMI calculator
 
-This is a simple BMI calculator
+This is a simple BMI calculator implemented with JavaScript
 
-If you have any question, suggestion or want to contact, mail me:
+If you want to contact, mail me or send a message on Twitter
 
-📧 igornoiasilva@gmail.com.
+📧 igornoiasilva@gmail.com / ☕ [@IgorNoiaSilva](https://twitter.com/IgorNoiaSilva)
 
 ***
 
@@ -31,7 +31,9 @@ My purpose with this project is to train my JavaScript.
 
 ***
 
-# <a name="Installation"></a>🛠 Installation
+# <a name="Installation"></a>🛠 
+
+You need to download [git](https://git-scm.com) initially
 
 Run this command to clone the repository:
 
